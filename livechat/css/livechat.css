@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/background2.jpg");
+    background-size: cover;
+    margin: 0;
+    overflow: hidden;
+}
+
+.mainHeading{
+    color: black;
+    text-shadow: -1px -1px 0px rgba(255,255,255);
+    animation: color 1s ease;
+}
+
+@keyframes color{
+    0%{
+        transform: skew(60deg);
+    }
+    100%{
+        transform: skew(180deg,180deg);
+    }
+}
+
+#chatBox{
+    width: 40%;
+    height: 585px;
+    margin: 0 auto;
+}
+
+.text-container{
+    overflow-y: scroll;
+    height: 310px;
+}
+
+textarea{
+  resize:none;
+  overflow: hidden;      
+}
+
+.form-error{
+    color: red;
+}
+
+.input-error{
+    box-shadow: 0px 0px 3px red;
+}
