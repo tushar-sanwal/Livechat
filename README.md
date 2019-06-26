@@ -1,8 +1,7 @@
 # Livechat
-A small web design stuff using AJAX and php
+A small web design stuff using AJAX and php. This is just a small project in php for beginners. I am the beginner in php so i made this and share with you guys.
 
-Its not very large type project. A small example of AJAX.
-
+As who don't know what AJAX is, a small para is given just below...   
 # AJAX
 AJAX is a Asynchronous JavaScript And XML. Easy to use and implement. With jquery it is much easier.
 It is not a programming language. It uses combination of xmlhttprequest to request data from server and uses javascript and html dom to display data to the client.
